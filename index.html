@@ -1,24 +1,28 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <!-- TU NUEVO LOGO (FAVICON) -->
-  <link rel="icon" type="image/png" href="https://i.ibb.co/wNbq364B/Dise-o-sin-t-tulo-6.png">
-  <link rel="apple-touch-icon" href="https://i.ibb.co/N2fqZm5L/Dise-o-sin-t-tulo-5.png">
-  
-  <style>
-    body, html { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; background: #000; }
-    iframe { width: 100%; height: 100%; border: none; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    
+    <!-- TÍTULO DE LA PESTAÑA -->
+    <title>Nexus | Agenda</title>
+
+    <!-- ESTO ES SOLO PARA QUE EL LINK SE VEA BIEN AL COMPARTIR EN WHATSAPP/INSTAGRAM -->
+    <meta property="og:title" content="Nexus | Agenda">
+    <meta property="og:description" content="Infraestructura Digital. Agenda tu llamada.">
+    <meta property="og:image" content="https://i.ibb.co/N2fqZm5L/Dise-o-sin-t-tulo-5.png">
+    
+    <!-- ESTO ES PARA QUE EL ÍCONO DE LA PESTAÑA SEA TU LOGO -->
+    <link rel="icon" href="https://i.ibb.co/N2fqZm5L/Dise-o-sin-t-tulo-5.png">
+
+    <style>
+        /* CSS PARA QUE EL IFRAME SEA INVISIBLE Y OCUPE TODO */
+        body, html { margin: 0; padding: 0; height: 100%; width: 100%; overflow: hidden; background-color: #000; }
+        iframe { width: 100%; height: 100%; border: none; display: block; }
+    </style>
 </head>
 <body>
-  <!-- CONEXIÓN AL WORKER -->
-  <iframe src="https://nexusys.santi21435.workers.dev/" allow="clipboard-write"></iframe>
+    <!-- AQUÍ CARGAMOS TU WORKER QUE YA FUNCIONA PERFECTO -->
+    <iframe src="https://nexusys.santi21435.workers.dev" allow="clipboard-write"></iframe>
 </body>
 </html>
-
-
-
-
